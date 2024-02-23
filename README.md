@@ -3,10 +3,10 @@
 Database featuring elevation data in SQL format instead of GeoTIFF image format for easier application without having to process and extract image data.
 
 Key features:
-- Each data point in the SQLite database represents the **maximum** elevation value of the raster/tile area it represents
+- Each data point in the SQLite database represents the **_maximum_** elevation value of the raster/tile area it represents
 - Resolution is one datapoint per raster/tile of 800m (lon) * 900m (lat)
 - Data is extracted from the GMTED2010 satellite images
-- Global coverage exccept poles
+- Global coverage except poles
 - WGS 84 reference
 - Vertical reference is EGM96: mean sea level (MSL) is defined as 0 and vertical unit is metres above mean sea level (AMSL)
 
