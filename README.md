@@ -1,5 +1,9 @@
 # world-elevation-wgs84-database
 
+1. SQLite DB is 22GB, not possible on free github.
+2. Unclear whether GMTED2010 license allows for re-distribution (no paragraphs available about that)
+
+
 Database featuring elevation data in SQL format instead of GeoTIFF image format for easier application without having to process and extract image data.
 
 Key features:
