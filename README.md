@@ -1,14 +1,12 @@
 # world-elevation-wgs84-database
 
-1. SQLite DB is 22GB, not possible on free github.
-2. Unclear whether GMTED2010 license allows for re-distribution (no paragraphs available about that)
-
-
-Database featuring elevation data in SQL format instead of GeoTIFF image format for easier application without having to process and extract image data.
+Database featuring elevation data in parquet format instead of GeoTIFF image format for easier application without having to process and extract image data.
+Parquet filetype chosen due to compression, current filesieze
 
 Key features:
-- Each data point in the SQLite database represents the **_maximum_** elevation value of the raster/tile area it represents
+- Each data point in the parquet dataframe is the **_maximum_** elevation value of the raster/tile area it represents
 - Resolution is one datapoint per raster/tile of 800m (lon) * 900m (lat)
+- Datapoints only included for those tiles where maximum elevation > 0 metres above mean sea level (AMSL)
 - Data is extracted from the GMTED2010 satellite images
 - Global coverage except poles
 - WGS 84 reference
