@@ -1,7 +1,7 @@
 # world-elevation-wgs84-database
 
 Database featuring elevation data in parquet format instead of GeoTIFF image format for easier application without having to process and extract image data.
-Parquet filetype chosen due to compression, current filesieze
+Parquet filetype chosen due to compression/filesize (SQLite GB vs parquet GB).
 
 Key features:
 - Each data point in the parquet dataframe is the **_maximum_** elevation value of the raster/tile area it represents
