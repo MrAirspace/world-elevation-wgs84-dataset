@@ -3,6 +3,8 @@
 Database featuring elevation data in parquet format instead of GeoTIFF image format for easier application without having to process and extract satellite image data.
 Parquet filetype chosen due to compression/filesize (SQLite 6.7 GB vs parquet 0.4 GB).
 
+File available under 'Releases'.
+
 Key features:
 - Each data point in the parquet dataframe is the **_maximum_** elevation value of the raster/tile area it represents
 - Resolution is one datapoint per raster/tile of 800m (lon) * 900m (lat)
