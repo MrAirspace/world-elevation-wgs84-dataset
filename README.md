@@ -4,7 +4,7 @@ Database featuring elevation data in tabular format instead of satellite GeoTIFF
 
 Parquet filetype chosen due to compression/filesize (SQLite 6.7 GB vs parquet 0.4 GB). Parquet file can also be loaded into a python pandas df and then converted to a csv for easy import into QGIS.
 
-Database file available under 'Releases'.
+Dataset available under 'Releases'.
 
 Key features:
 - Each data point in the parquet dataframe is the **_maximum_** elevation value of the raster/tile area it represents
