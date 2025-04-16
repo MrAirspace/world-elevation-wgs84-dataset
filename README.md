@@ -1,4 +1,4 @@
-# world-elevation-wgs84-database
+# world-elevation-wgs84-dataset
 
 Database featuring elevation data in tabular format instead of satellite GeoTIFF image for easy application in python pandas dataframes, QGIS, etc. No more need to process and extract elevation data from satellite images.
 
