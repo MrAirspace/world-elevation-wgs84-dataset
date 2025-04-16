@@ -8,7 +8,7 @@ Dataset available under 'Releases'.
 
 Key features:
 - Each data point in the parquet dataframe is the **_maximum_** elevation value of the raster/tile area it represents
-- Resolution is one datapoint per raster/tile of 800m (lon) * 900m (lat)
+- Resolution is one datapoint per raster/tile of 800m (lon) * 900m (lat) (stemming from the '30 arc-seconds'/'step300' resolution)
 - Datapoints only included for those tiles where maximum elevation > 0 metres above mean sea level (AMSL)
 - The accuracy of the value for maximum elevation is rounded to metres (integers)
 - Data is extracted from the GMTED2010 satellite images (https://catalog.data.gov/dataset/global-multi-resolution-terrain-elevation-data-2010-gmted2010)
